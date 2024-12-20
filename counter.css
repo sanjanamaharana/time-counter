@@ -1,0 +1,87 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    /* font-family: 'Comic Sans MS', cursive, sans-serif; */
+    /* font-family: 'Pacifico', cursive; */
+    /* font-family: 'Amatic SC', cursive; */
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Lobster', cursive; */
+
+    font-family: 'Cute Font', cursive;
+
+
+}
+
+body {
+    background-color: #efd9f6;
+}
+
+.heading {
+    text-align: center;
+    background-color: #ada2ff;
+    color: #ffffff;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    margin-top: 6rem;
+}
+
+.c1,
+.c2,
+.c3 {
+    border: 1px solid #691883;
+    border-radius: 50%;
+    color: hsl(0, 0%, 100%);
+    padding: 3rem;
+    font-size: 6rem;
+    /* animation: timerAnimation 60s linear infinite;
+    transform-origin: center */
+}
+
+/* @keyframes timerAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+} */
+
+.hold {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 6rem;
+}
+
+.stop,
+.rest {
+    border: 1px double #ada2ff;
+    color: hsl(0, 0%, 100%);
+    background-color: #ada2ff;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 10%;
+}
+
+/* .rest{
+    border: 1px double black;
+    color: aliceblue;
+    background8color: black;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 10%;
+} */
+.stop:hover,
+.rest:hover {
+    opacity: 70%;
+
+}
